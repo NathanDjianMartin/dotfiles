@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+## Git
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
