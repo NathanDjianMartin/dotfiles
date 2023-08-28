@@ -1,4 +1,12 @@
-#!/usr/bin/env bash
+#!/bin/sh
+# `bootstrap` handles installation of the dotfiles.
+
+echo "Setting up your Mac"
+
+# If any command returns a non-zero exit code, the script will terminate
+set -e
+
+export DOTFILES=$HOME/.dotfiles
 
 ## Git
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
