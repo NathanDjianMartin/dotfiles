@@ -1,0 +1,25 @@
+{
+    "editor.linkedEditing": true,
+    "editor.tabSize": 2,
+    "editor.indentSize": "tabSize",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "Default Light Modern",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.stickyScroll.enabled": true,
+    "editor.renderWhitespace": "none",
+}
