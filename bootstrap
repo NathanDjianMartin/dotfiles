@@ -8,6 +8,15 @@ set -e
 
 export DOTFILES=$HOME/.dotfiles
 
+# Installs Homebrew (if not installed)
+if test ! $(which brew)
+then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+# Install Brewfile dependencies
+brew bundle --file ~/.dotfiles/Brewfile
+
 ## Git
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
