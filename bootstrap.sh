@@ -8,6 +8,9 @@ set -e
 
 export DOTFILES=$HOME/.dotfiles
 
+# Set macOS defaults
+/bin/bash $DOTFILES/macos/set-defaults.sh
+
 # Installs Homebrew (if not installed)
 if test ! $(which brew)
 then
