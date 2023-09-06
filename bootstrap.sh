@@ -20,10 +20,10 @@ fi
 # Install Brewfile dependencies
 brew bundle --file ~/.dotfiles/Brewfile
 
-## Git
+# Symlink gitcongig
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
-## VSCode
+# Symlink VSCode settings
 rm -rf $HOME/Library/Application\ Support/Code/User
 mkdir -p $HOME/Library/Application\ Support/Code
 ln -s $DOTFILES/vscode/User $HOME/Library/Application\ Support/Code/User
