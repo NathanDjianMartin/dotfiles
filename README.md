@@ -17,5 +17,5 @@ git clone https://github.com/NathanDjianMartin/dotfiles.git ~/.dotfiles
 4. Run the bootstrap script to install everything 😎
 
 ```bash
-~/.dotfiles/bootstrap.sh
+sh ~/.dotfiles/bootstrap.sh
 ```
