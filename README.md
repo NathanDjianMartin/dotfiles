@@ -11,11 +11,11 @@ xcode-select --install
 3. Clone this repository
 
 ```bash
-git clone git@github.com:NathanDjianMartin/dotfiles.git ~/.dotfiles
+git clone https://github.com/NathanDjianMartin/dotfiles.git ~/.dotfiles
 ```
 
 4. Run the bootstrap script to install everything 😎
 
 ```bash
-~/.dotfiles/bootstrap
+~/.dotfiles/bootstrap.sh
 ```
