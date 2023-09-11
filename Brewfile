@@ -15,6 +15,7 @@ cask 'raycast'
 cask 'slack'
 cask 'visual-studio-code'
 cask 'postman'
+cask 'logi-options-plus'
 
 # VSCode extensions
 vscode "bradlc.vscode-tailwindcss"
