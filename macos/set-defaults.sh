@@ -43,7 +43,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 ###############################################################################
 
 # Enable “natural” scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
