@@ -3,9 +3,6 @@
 
 echo "Setting up your Mac"
 
-# If any command returns a non-zero exit code, the script will terminate
-set -e
-
 export DOTFILES=$HOME/.dotfiles
 
 # Set macOS defaults
