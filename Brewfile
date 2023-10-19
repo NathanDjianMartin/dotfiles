@@ -16,6 +16,7 @@ cask 'slack'
 cask 'visual-studio-code'
 cask 'postman'
 cask 'logi-options-plus'
+cask 'mongodb-compass'
 
 # VSCode extensions
 vscode "bradlc.vscode-tailwindcss"
