@@ -31,4 +31,9 @@
   "gitlens.graph.minimap.enabled": false,
   "workbench.tree.enableStickyScroll": true,
   "workbench.editor.wrapTabs": true,
-  }
+  "colorize.include": [
+    "*.ts",
+    "*.tsx"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
